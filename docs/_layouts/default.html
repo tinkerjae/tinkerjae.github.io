@@ -1,1 +1,19 @@
-{{ content }}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--meta stuff-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="icon" type="image/x-icon" href="https://files.catbox.moe/o2hqdb.jpg">
+    <meta name="description" content="{{ post.excerpt }}">
+    <meta name="author" content="{{ post.author }}">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/_assets/stylesheet.css">
+  </head>
+  <body>
+    <section>
+      {{ content }}
+    </section>
+  </body>
+</html>
