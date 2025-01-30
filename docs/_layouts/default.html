@@ -5,15 +5,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
-    <link rel="icon" type="image/x-icon" href="https://files.catbox.moe/o2hqdb.jpg">
-    <meta name="description" content="{{ post.excerpt }}">
-    <meta name="author" content="{{ post.author }}">
+    <link rel="icon" type="image/x-icon" href="{{ site.profpic }}">
+    <meta name="description" content="{{ page.excerpt }}">
+    <meta name="author" content="{{ page.author }}">
     <meta charset="utf-8">
     <link rel="stylesheet" href="/_assets/stylesheet.css">
   </head>
   <body>
-    <section>
-      {{ content }}
+    <h1 class="SiteTitle"><a href="/" class="SiteTitleLink">Tinker Jae</a></h1>
+    <section class="MetaContainer">
+      <section class="LeftBox">
+        <img class="ProfPic Border" src="{{ site.profpic }}">
+      </section>
+      <section class="MainBox">
+        {{ content }}
+      </section>
     </section>
   </body>
 </html>
