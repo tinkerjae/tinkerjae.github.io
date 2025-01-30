@@ -5,4 +5,5 @@
 layout: default
 title: Tinker Jae!
 ---
-FORTNITE!
+# <u>WIP!<u>
+This website is currently a work in progress, I'm porting this website over from my main site, https://tinkerjae.neocities.org/. If this unfinished state bothers you, head over there for a much more finished version of the site.
