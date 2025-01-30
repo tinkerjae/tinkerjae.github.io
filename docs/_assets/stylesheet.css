@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'NovaMono';
+    src: url(https://files.catbox.moe/di6c0b.woff);
+}
+@font-face {
+    font-family: 'Panic';
+    src: url(https://files.catbox.moe/di6c0b.woff);
+}
+html, body {
+    background-image: url('Attachments/stars.gif');
+    color: white;
+    font-family: "NovaMono";
+    }
+img {
+    display: block;
+    margin: auto auto;
+    max-width: 92%;
+    height: auto;
+} 
+a {
+    color: turquoise;
+}
+hr {
+    border: 1.75px solid white;
+    width: 100%;
+}
+h1 {
+    font-size: 350%;
+    font-weight: 300;
+    margin: 2%;
+    padding: 0% 1.1%;
+}
+/* h3 is reserved for navbar elements*/
+h3 {
+    font-size: 310%;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 300;
+}
+/* h3 is reserved for navbar elements*/
+p {
+    font-size: 250%;
+    margin: 2%;
+    padding: 0% 1.1%;
+    text-align: justify;
+    background-color: rgba(0, 8, 20, .40);
+}
+ol {
+    font-size: 250%;
+    margin: 2%;
+    padding: 0% 1.1%;
+    text-align: justify;
+}
+ul {
+    font-size: 250%;
+    margin: 2%;
+    padding: 0% 1.1%;
+    text-align: justify;
+}
+.marker {
+    border: 7px;
+    border-style: solid;
+    border-color: #ff69b4;
+    }
+.Border {
+border: 4px;
+border-radius: 15px;
+border-style: solid;
+border-color: white;
+}
+.SiteTitle {
+width: fit-content;
+text-align: center;
+margin: .5% auto;
+font-size: 450%; 
+font-family: "Panic";
+color: white;
+text-decoration: none;
+}
+.SiteTitleLink {
+width: min-content;
+color: white;
+text-decoration: none;
+}
+/* This is for phones/tablets. */
+@media only screen and (max-width: 1000px) {
+.MetaContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 2.5%;
+    width: 90%;
+    margin: auto;
+}
+.LeftBox {
+    display: none;
+}
+.NavbarMobile {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.MainBox {
+    line-height: 225%;
+    width: 100%;
+}
+.MakerWebring {
+    font-size: 250%;
+    margin: 2%;
+    padding: 0% 1.1%;
+    text-align: justify;
+}
+}
+/* This is for laptops/desktops. */
+@media only screen and (min-width: 1001px) {
+.MetaContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: auto;
+    gap: 3%;
+    width: 88%;
+    min-width: 760px;
+}
+.LeftBox {
+    width: 12%; 
+    min-width: 141px;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    gap: 20px;
+}
+.MainBox {
+    line-height: 225%;
+    width: 85%;
+    min-width: 400px;
+    height: fit-content;
+}
+.NavbarMobile {
+    display: none;
+}
+.ProfPic {
+    max-width: 96%;
+    max-height: 96%;
+}
+.MakerWebring {
+    font-size: 250%;
+    margin: 2%;
+    padding: 0% 1.1%;
+    text-align: justify;
+}
+}
