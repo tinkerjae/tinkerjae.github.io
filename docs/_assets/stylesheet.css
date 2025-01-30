@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'NovaMono';
-    src: url(https://files.catbox.moe/di6c0b.woff);
+    src: url('https://files.catbox.moe/di6c0b.woff');
 }
 @font-face {
     font-family: 'Panic';
-    src: url(https://files.catbox.moe/di6c0b.woff);
+    src: url('https://files.catbox.moe/di6c0b.woff');
 }
 html, body {
-    background-image: url('Attachments/stars.gif');
+    background-image: url('https://files.catbox.moe/r3iiz9.gif');
     color: white;
     font-family: "NovaMono";
     }
@@ -62,7 +62,7 @@ ul {
     border-style: solid;
     border-color: #ff69b4;
     }
-.Border {
+.Border{
 border: 4px;
 border-radius: 15px;
 border-style: solid;
