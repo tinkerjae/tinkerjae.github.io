@@ -1,16 +1,21 @@
 @font-face {
     font-family: 'NovaMono';
-    src: url('https://files.catbox.moe/di6c0b.woff'); 
+    src: url('https://files.catbox.moe/di6c0b.woff'); /*References for the font*/
 }
 @font-face {
     font-family: 'Panic';
-    src: url('https://files.catbox.moe/y08v74.woff');
+    src: url('https://files.catbox.moe/y08v74.woff'); /*Reference for the font*/
 }
 html, body {
-    background-image: url('https://files.catbox.moe/r3iiz9.gif');
-    color: white;
-    font-family: "NovaMono";
+    background-image: url('https://files.catbox.moe/r3iiz9.gif'); /*Animated BG*/
+    color: white;  
+    font-family: "NovaMono"; /*Main font for everything on the site*/
+    -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
+    scrollbar-width: none;  /* Firefox scroll bar hiding*/
     }
+html::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome scroll bar hiding*/
+}
 img {
     display: block;
     margin: auto auto;
@@ -30,14 +35,14 @@ h1 {
     margin: 2%;
     padding: 0% 1.1%;
 }
-/* h3 is reserved for navbar elements*/
+/*h3 is reserved for navbar elements*/
 h3 {
     font-size: 310%;
     margin: 0px;
     padding: 0px;
     font-weight: 300;
 }
-/* h3 is reserved for navbar elements*/
+/*h3 is reserved for navbar elements*/
 p {
     font-size: 250%;
     margin: 2%;

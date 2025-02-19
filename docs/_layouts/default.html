@@ -16,8 +16,11 @@
     <section class="MetaContainer">
       <section class="LeftBox">
         <img class="ProfPic Border" src="{{ site.profpic }}">
+        {{site.navbar_desktop}}
       </section>
       <section class="MainBox Border">
+        {{site.navbar_mobile}}
+        <h1><u>{{page.title}}</u></h1>
         {{ content }}
       </section>
     </section>
