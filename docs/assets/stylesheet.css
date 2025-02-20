@@ -87,6 +87,9 @@ width: min-content;
 color: white;
 text-decoration: none;
 }
+.PostBlock{
+    line-height: 100%;
+}
 /* This is for phones/tablets. */
 @media only screen and (max-width: 1000px) {
 .MetaContainer {

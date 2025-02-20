@@ -1,10 +1,10 @@
 ---
 layout: default
-permalink: /posts/
-title: Posts
+permalink: /misc/
+title: Misc 
 ---
-This shows all of our posts ever made.
-{% for post in site.posts %}
+Stuff that doesn't quite fit.
+{% for post in site.categories.misc %}
 <div class="PostBlock"> 
 <p><a href="{{post.url}}">{{post.title}}</a>    ({{ post.date | date: '%B %-d, %Y'}})</p> 
 {{post.excerpt}} 
