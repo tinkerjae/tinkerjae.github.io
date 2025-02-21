@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tabula Rasa"
-categories: blog misc
+categories: blog
 ---
 A fresh start.
 

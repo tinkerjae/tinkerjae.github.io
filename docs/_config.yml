@@ -36,12 +36,15 @@ navbar_desktop:
             <hr>
             <h3><a href="/posts/">Posts</a></h3>
             <hr>
+            <h3><a href="/categories/">Categories</a></h3>
+            <hr>
             <h3><a href="/misc/">Misc</a></h3>
           </div>
 navbar_mobile:
           <div class="NavbarMobile">
             <h3><a href="/">Home</a></h3>
             <h3><a href="/posts/">Posts</a></h3>
+            <h3><a href="/categories/">Categories</a></h3>
             <h3><a href="/misc/">Misc</a></h3>
             <hr>
           </div>
@@ -49,13 +52,6 @@ navbar_mobile:
 theme: minima
 plugins:
   - jekyll-feed
-
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      values: 
-        layout: "default" 
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
