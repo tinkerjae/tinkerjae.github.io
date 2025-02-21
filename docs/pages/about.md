@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About
-excerpt: About the author
+excerpt: About the author/webmaster.
 categories: misc
 ---
-{{page.excerpt}}
+I'm finna touch you lil bro.

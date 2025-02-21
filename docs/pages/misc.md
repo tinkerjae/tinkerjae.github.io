@@ -2,10 +2,9 @@
 layout: page
 permalink: /misc/
 title: Misc
-description: For stuff that doesn't quite fit.
+excerpt: For stuff that doesn't quite fit.
 category: '1'
 ---
-{{page.description}}<br>
 Dated Pages:
 <br>Nothing here yet, sorry!
 {% for post in site.categories.misc %}
