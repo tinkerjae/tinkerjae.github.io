@@ -2,7 +2,7 @@
 layout: page
 permalink: /posts/
 title: Posts
-excerpt: 'This shows all of our posts ever made.'
+excerpt: This shows all of our posts ever made.
 category: '1'
 ---
 For posts sorted by category [click here](/categories/).

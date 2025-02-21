@@ -5,15 +5,14 @@ title: Misc
 excerpt: For stuff that doesn't quite fit.
 category: '1'
 ---
-Dated Pages:
-<br>Nothing here yet, sorry!
+Dated Posts:
 {% for post in site.categories.misc %}
 <div class="PostBlock"> 
 <p><a href="{{post.url}}">{{post.title}}</a>    ({{ post.date | date: '%B %-d, %Y'}})</p> 
 {{post.excerpt}} 
 </div>
 {% endfor %}
-Non-dated Pages:
+Non-Dated Pages:
 {% assign sortedPages = site.pages | sort: 'title' %}
 {% for page in sortedPages %}   
 {% if page.categories contains "misc" %}
