@@ -3,8 +3,8 @@ layout: page
 permalink: /misc/
 title: Misc
 excerpt: For stuff that doesn't quite fit.
-category: '1'
 ---
+<!--
 Dated Posts:
 {% for post in site.categories.misc %}
 <div class="PostBlock"> 
@@ -13,6 +13,7 @@ Dated Posts:
 </div>
 {% endfor %}
 Non-Dated Pages:
+-->
 {% assign sortedPages = site.pages | sort: 'title' %}
 {% for page in sortedPages %}   
 {% if page.categories contains "misc" %}
