@@ -34,8 +34,6 @@ navbar_desktop:
           <div class="Border NavbarDesktop">
             <h3><a href="/">Home</a></h3>
             <hr>
-            <h3><a href="/blog/">Blog</a></h3>
-            <hr>
             <h3><a href="/categories/">Categories</a></h3>
             <hr>
             <h3><a href="/misc/">Misc</a></h3>
@@ -43,7 +41,6 @@ navbar_desktop:
 navbar_mobile:
           <div class="NavbarMobile">
             <h3><a href="/">Home</a></h3>
-            <h3><a href="/blog/">Blog</a></h3>
             <h3><a href="/categories/">Categories</a></h3>
             <h3><a href="/misc/">Misc</a></h3>
             <hr>
