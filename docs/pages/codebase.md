@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cat3
 permalink: /codebase/
 title: Codebase
 excerpt: A credit to the Jekyll team!

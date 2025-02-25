@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cat3
 permalink: /webresources/
 title: Resources
 excerpt: For resources on making your own website.

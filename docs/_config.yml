@@ -45,6 +45,9 @@ navbar_mobile:
             <h3><a href="/misc/">Misc</a></h3>
             <hr>
           </div>
+cat1_link: Up&colon; <a href="/">Home</a>
+cat2_link: Up&colon; <a href="/categories/">Categories</a>
+cat3_link: Up&colon; <a href="/misc/">Misc</a>
 # Build settings
 theme: minima
 plugins:

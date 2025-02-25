@@ -89,7 +89,7 @@ color: white;
 text-decoration: none;
 }
 .PostBlock{
-    line-height: 100%;
+    line-height: 180%;
 }
 /* This is for phones/tablets. */
 @media only screen and (max-width: 1000px) {
