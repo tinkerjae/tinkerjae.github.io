@@ -54,12 +54,13 @@ p {
 }
 ol {
     font-size: 250%;
-    margin: 2%;
+    margin: 25px;
     text-align: justify;
 }
 ul {
+    list-style-type: "- ";
     font-size: 250%;
-    margin: 2%;
+    margin: 50px; 
     padding: 0% 1.1%;
     text-align: justify;
 }
