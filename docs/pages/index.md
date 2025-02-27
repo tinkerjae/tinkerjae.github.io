@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: default
 permalink: /
 title: Welcome!
 excerpt: The landing/home page for my website.
 ---
+<p>{{ page.excerpt }}</p>
 Hi! Welcome to my new site! This website is currently a work in progress, 
 I'm porting some of this website over from my [former site](https://tinkerjae.neocities.org/). 
 
