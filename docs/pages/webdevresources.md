@@ -1,7 +1,7 @@
 ---
 layout: cat3
-permalink: /webresources/
-title: Resources
+permalink: /webdevresources/
+title: Web Dev Resources
 excerpt: For resources on making your own website.
 categories: misc
 ---
