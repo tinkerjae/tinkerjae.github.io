@@ -49,7 +49,7 @@ cat2_link: Up&colon; <a href="/categories/">Categories</a>
 cat3_link: Up&colon; <a href="/misc/">Misc</a>
 # Build settings
 theme: minima
-plugins:
+gems:
   - jekyll-feed
 feed:
   categories:
