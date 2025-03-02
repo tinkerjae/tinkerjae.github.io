@@ -1,6 +1,6 @@
 ---
 layout: cat3
-permalink: /atomfeeds/
+permalink: /rssfeeds/
 title: RSS/Atom/XML Feeds
 excerpt: If you'd like to see this site through an RSS reader.
 categories: misc
