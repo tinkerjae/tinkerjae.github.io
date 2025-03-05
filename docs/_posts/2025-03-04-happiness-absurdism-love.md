@@ -73,4 +73,4 @@ Thanks again for reading, have a good morning, good evening, or good night.
 ["All About Love: New Visions" by bell hooks](https://en.wikipedia.org/wiki/All_About_Love:_New_Visions)(Wikipedia)<br>
 [Everything Everywhere All at Once](https://www.imdb.com/title/tt6710474/)(IMDb)<br>
 
-[PDF Version of Post](https://files.catbox.moe/k27b3r.pdf)
+[PDF Download of this Document](https://files.catbox.moe/k27b3r.pdf)  
