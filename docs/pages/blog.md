@@ -6,7 +6,9 @@ excerpt: Posts about my life and stuff.
 ---
 {% for post in site.categories.blog %}
 <div class="PostBlock"> 
-<p><a href="{{post.url}}">{{post.title}}</a>    ({{ post.date | date: '%B %-d, %Y'}})</p> 
+<p><a href="{{post.url}}">{{post.title}}</a>    ({{ post.date | date: '%B %-d, %Y'}})<br>
+{{post.tags}}
+</p>
 {{post.excerpt}} 
 </div>
 {% endfor %}
