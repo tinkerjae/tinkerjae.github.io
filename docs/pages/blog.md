@@ -13,7 +13,7 @@ Tags:
 {% assign i = i | plus:1 %}
 {{ post.tags[i] | capitalize }};
 {% else %}
-N/A;
+N/a;
 {% endfor %}
 </p>
 {{post.excerpt}} 
