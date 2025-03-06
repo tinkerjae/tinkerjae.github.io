@@ -7,7 +7,12 @@ excerpt: Posts about my life and stuff.
 {% for post in site.categories.blog %}
 <div class="PostBlock"> 
 <p><a href="{{post.url}}">{{post.title}}</a>    ({{ post.date | date: '%B %-d, %Y'}})<br>
-Tags: {{post.tags | capitalize }}
+Tags: 
+{% assign i = -1 %}
+{% for tags in post.tags %}
+{% assign i = i | plus:1 %}
+{{post.tags[i] | capitalize }};
+{% endfor %}
 </p>
 {{post.excerpt}} 
 </div>
