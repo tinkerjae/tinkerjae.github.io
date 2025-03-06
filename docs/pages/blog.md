@@ -12,6 +12,8 @@ Tags:
 {% for tags in post.tags %}
 {% assign i = i | plus:1 %}
 {{post.tags[i] | capitalize }};
+{{else}}
+N/A
 {% endfor %}
 </p>
 {{post.excerpt}} 
