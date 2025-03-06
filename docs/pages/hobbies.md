@@ -6,7 +6,17 @@ excerpt: Posts about hobbies I enjoy.
 ---
 {% for post in site.categories.hobbies %}
 <div class="PostBlock"> 
-<p><a href="{{post.url}}">{{post.title}}</a>    ({{ post.date | date: '%B %-d, %Y'}})</p> 
-{{post.excerpt}} 
+<p>
+    <a href="{{post.url}}">{{post.title}}</a>    ({{ post.date | date: '%B %-d, %Y'}})<br>
+    Tags: 
+        {% assign i = -1 %}
+        {% for tags in post.tags %}
+        {% assign i = i | plus:1 %}
+        {{ post.tags[i] | capitalize }};
+        {% else %}
+        n/a;
+        {% endfor %}<br>
+    {{post.excerpt | strip_html}}
+</p>
 </div>
 {% endfor %}
