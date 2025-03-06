@@ -2,7 +2,7 @@
 layout: post
 title:  "Happiness, Absurdism, & Love" 
 categories: writings
-tags: absurdism philosophy essay
+tags: philosophy essay
 ---
 An essay on happiness, absurdism, and love.
 
