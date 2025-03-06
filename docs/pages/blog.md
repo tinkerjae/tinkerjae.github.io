@@ -11,7 +11,7 @@ Tags:
 {% assign i = -1 %}
 {% for tags in post.tags %}
 {% assign i = i | plus:1 %}
-{{post.tags[i] | capitalize }};
+{{ post.tags[i] | capitalize }};
 {% else %}
 N/A
 {% endfor %}
