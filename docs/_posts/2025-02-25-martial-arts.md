@@ -2,6 +2,7 @@
 layout: post
 title:  "I've started martial arts!"
 categories: blog hobbies 
+tags: martial-arts
 ---
 Hey! It hasn't been that long suprisingly. 
 

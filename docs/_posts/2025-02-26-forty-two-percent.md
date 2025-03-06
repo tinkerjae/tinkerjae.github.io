@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "42%" 
-categories: blog resources vent
+categories: blog resources
+tags: vent
 ---
 A writing on rest.
 
