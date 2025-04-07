@@ -27,4 +27,4 @@ If you'd like to make a website like this, check out my [web dev resources](/web
 <h1><u>Contact Me</u></h1>
 If you wanna hit me up, here's my main methods of contact.
 
-Email: [tinkerjae@proton.me](tinkerjae@proton.me)
+Email: <a href="mailto:tinkerjae@proton.me">tinkerjae@proton.me</a>
