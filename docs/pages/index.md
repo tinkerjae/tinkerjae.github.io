@@ -25,4 +25,5 @@ If you'd like to make a website like this, check out my [web dev resources](/web
 
 <hr>
 <h1><u>Contact Me</u></h1>
-Nothing here yet, stay tuned!
+If you wanna hit me up, here's my main methods of contact.
+Email: tinkerjae@proton.me 
