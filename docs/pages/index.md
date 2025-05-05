@@ -31,7 +31,7 @@ Email (remove NOSPAM from the address): <a href="mailto:{{site.email}}">{{site.e
 <hr>
 <h1><u>Webring</u></h1>
 <p>
-    I'm apart of the Maker Webring
+    I'm apart of the Maker Webring!
 </p>
 <div id='D1D1D0904CC346DB' class="MakerWebring">
     <script type="text/javascript" src="https://tinkerjae.neocities.org/Webring/onionring-variables.js"></script>
