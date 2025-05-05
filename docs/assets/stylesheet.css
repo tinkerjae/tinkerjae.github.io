@@ -12,6 +12,8 @@ html, body {
     font-family: "NovaMono"; /*Main font for everything on the site*/
     -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
     scrollbar-width: none;  /* Firefox scroll bar hiding*/
+    letter-spacing: 1.5%;
+    word-spacing: -40%;
     }
 html::-webkit-scrollbar {
     display: none;  /* Safari and Chrome scroll bar hiding*/
@@ -52,12 +54,13 @@ p {
 }
 ol {
     font-size: 250%;
-    margin: 2%;
+    margin: 25px;
     text-align: justify;
 }
 ul {
+    list-style-type: "- ";
     font-size: 250%;
-    margin: 2%;
+    margin: 50px; 
     padding: 0% 1.1%;
     text-align: justify;
 }
@@ -87,7 +90,7 @@ color: white;
 text-decoration: none;
 }
 .PostBlock{
-    line-height: 100%;
+    line-height: 180%;
 }
 /* This is for phones/tablets. */
 @media only screen and (max-width: 1000px) {

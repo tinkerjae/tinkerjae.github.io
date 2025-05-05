@@ -18,17 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Tinker Jae!"
-email: tinkerjaesite@proton.me
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-domain: tinkerjae.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://tinkerjae.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl:  # place folder name if the site is served in a subfolder
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Tinker Jae!
+email: tinkerjaeNOSPAM@proton.me
+description:
+  Hi! Welcome to my new site! 
+  This website exists as my personal home on the internet 
+  where I can post about my daily life, projects, hobbies, poetry, 
+  and cool stuff I've found on the internet. 
+domain: tinkerjae.xyz # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://tinkerjae.xyz/  # the base hostname and protocol for your site, e.g. http://example.com
+author: Jae
 profpic: https://files.catbox.moe/o2hqdb.jpg # a link to our profile picture site wide.
 navbar_desktop:
           <div class="Border NavbarDesktop">
@@ -45,10 +44,20 @@ navbar_mobile:
             <h3><a href="/misc/">Misc</a></h3>
             <hr>
           </div>
+cat1_link: Up&colon; <a href="/">Home</a>
+cat2_link: Up&colon; <a href="/categories/">Categories</a>
+cat3_link: Up&colon; <a href="/misc/">Misc</a>
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+collections:
+  
+feed:
+  categories:
+    - blog
+    - projects
+    - hobbies
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

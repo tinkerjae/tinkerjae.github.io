@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cat3
 permalink: /about/
 title: About
 excerpt: About the author/webmaster.

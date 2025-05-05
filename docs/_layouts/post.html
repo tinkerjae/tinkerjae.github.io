@@ -1,4 +1,13 @@
 ---
 layout: default
+description: This adds links to the categories of the page with this layout to the top, starting with the 'posts' page. 
 ---
+<p>
+Up: <a href="/posts/">Posts</a>; 
+{% assign i = -1 %}
+{% for categories in page.categories %}
+{% assign i = i | plus:1 %}
+<a href="/{{page.categories[i]}}/">{{page.categories[i] | capitalize }}</a>;
+{% endfor %}
+</p>
 {{ content }}
