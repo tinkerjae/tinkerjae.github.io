@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Tinker Jae!
-email: tinkerjaesite@proton.me
+email: tinkerjaeNOSPAM@proton.me
 description:
   Hi! Welcome to my new site! 
   This website exists as my personal home on the internet 
@@ -51,6 +51,8 @@ cat3_link: Up&colon; <a href="/misc/">Misc</a>
 theme: minima
 plugins:
   - jekyll-feed
+collections:
+  
 feed:
   categories:
     - blog
