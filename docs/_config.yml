@@ -25,8 +25,8 @@ description:
   This website exists as my personal home on the internet 
   where I can post about my daily life, projects, hobbies, poetry, 
   and cool stuff I've found on the internet. 
-domain: tinkerjae.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://tinkerjae.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
+domain: tinkerjae.xyz # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://tinkerjae.xyz/  # the base hostname and protocol for your site, e.g. http://example.com
 author: Jae
 profpic: https://files.catbox.moe/o2hqdb.jpg # a link to our profile picture site wide.
 navbar_desktop:
