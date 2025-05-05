@@ -26,5 +26,14 @@ If you'd like to make a website like this, check out my [web dev resources](/web
 <hr>
 <h1><u>Contact Me</u></h1>
 If you wanna hit me up, here's my main methods of contact.
-
 Email (remove NOSPAM from the address): <a href="mailto:{{site.email}}">{{site.email}}</a>
+
+<hr>
+<h1><u>Webring</u></h1>
+<p>
+    I'm apart of the Maker Webring
+</p>
+<div id='D1D1D0904CC346DB' class="MakerWebring">
+    <script type="text/javascript" src="https://tinkerjae.neocities.org/Webring/onionring-variables.js"></script>
+    <script type="text/javascript" src="https://tinkerjae.neocities.org/Webring/onionring-widget.js"></script>
+</div>
