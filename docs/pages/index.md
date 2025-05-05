@@ -33,6 +33,6 @@ Email (remove NOSPAM from the address): <a href="mailto:{{site.email}}">{{site.e
 <h1><u>Webring</u></h1>
 I'm apart of the Maker Webring!
 <div id='D1D1D0904CC346DB' class="MakerRing">
-    <script type="text/javascript" src="https://files.catbox.moe/mgtqir.js"></script>
-    <script type="text/javascript" src="https://files.catbox.moe/phfq5b.js"></script>
+    <script type="text/javascript" src="https://tinkerjae.xyz/assets/webring/onionring-variables.js"></script>
+    <script type="text/javascript" src="https://tinkerjae.xyz/assets/webring/onionring-widget.js"></script>
 </div>

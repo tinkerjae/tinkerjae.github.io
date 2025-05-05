@@ -23,9 +23,9 @@ var ringName = 'Maker Ring';
 var ringID = 'D1D1D0904CC346DB';
 
 //should the widget include a link to an index page?
-var useIndex = false;
+var useIndex = true;
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = 'https://example.com/index.html';
+var indexPage = 'https://tinkerjae.xyz/maker-ring/';
 
 //should the widget include a random button?
 var useRandom = true;
