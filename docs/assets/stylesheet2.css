@@ -42,7 +42,7 @@
     }
     /*h3 is reserved for navbar elements*/
     h3 {
-        font-size: 200;
+        font-size: 200%;
         margin: 0px;
         padding: 0px;
         font-weight: 300;
