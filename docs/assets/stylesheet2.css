@@ -14,9 +14,10 @@
         font-family: "NovaMono"; /*Main font for everything on the site*/
         -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
         scrollbar-width: none;  /* Firefox scroll bar hiding*/
-        letter-spacing: 1.5%;
+        font-size: 150%;
+        letter-spacing: auto;
         word-spacing: -40%;
-        line-height: 0%;
+        line-height: -10px;
         }
     html::-webkit-scrollbar {
         display: none;  /* Safari and Chrome scroll bar hiding*/
