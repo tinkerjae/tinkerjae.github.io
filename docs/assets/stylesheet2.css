@@ -79,17 +79,16 @@ ul {
 /* This is for phones/tablets. */
 @media only screen and (max-width: 1000px) {
     body {
-        font-size: 100%;
+        font-size: 125%;
+        line-height: 1em;
         }
     h1 {
-        font-size: 100%;
         font-weight: 300;
         margin: 2%;
         padding: 0% 1.1%;
     }
     /*h3 is reserved for navbar elements*/
     h3 {
-        font-size: 100%;
         margin: 0px;
         padding: 0px;
         font-weight: 300;
@@ -97,9 +96,6 @@ ul {
     /*h3 is reserved for navbar elements*/
     p {
         margin: 4%;
-    }
-    ol {
-        text-align: justify;
     }
     ul {
         padding: 0% 1.1%;
