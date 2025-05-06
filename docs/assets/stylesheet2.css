@@ -12,11 +12,10 @@ html {
     font-family: "NovaMono"; /*Main font for everything on the site*/
     -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
     scrollbar-width: none;  /* Firefox scroll bar hiding*/
-    font-size: 150%;
-    letter-spacing: auto;
-    word-spacing: -40%;
-    line-height: -10px;
     }
+html::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome scroll bar hiding*/
+}
 a {
     color: turquoise;
 }
@@ -41,16 +40,30 @@ img {
     border-style: solid;
     border-color: #ff69b4;
     }
+.SiteTitle {
+    width: fit-content;
+    text-align: center;
+    margin: .5% auto;
+    font-size: 450%; 
+    font-family: "Panic";
+    }
 .SiteTitleLink {
     width: min-content;
     color: white;
     text-decoration: none;
     }
+.PostBlock{
+    line-height: 180%;
+}
 .MakerRing {
     padding: 0% 1.1%;
     text-align: justify;
     width: fit-content;
     margin: auto;
+}
+.ProfPic {
+    max-width: 96%;
+    max-height: 96%;
 }
 /* This is for phones/tablets. */
 @media only screen and (max-width: 1000px) {
@@ -65,10 +78,6 @@ img {
         word-spacing: -40%;
         line-height: -10px;
         }
-    html::-webkit-scrollbar {
-        display: none;  /* Safari and Chrome scroll bar hiding*/
-    }
-
     h1 {
         font-size: 210%;
         font-weight: 300;
@@ -101,18 +110,6 @@ img {
         padding: 0% 1.1%;
         text-align: justify;
     }
-    .SiteTitle {
-    width: fit-content;
-    text-align: center;
-    margin: .5% auto;
-    font-size: 450%; 
-    font-family: "Panic";
-    color: white;
-    text-decoration: none;
-    }
-    .PostBlock{
-        line-height: 180%;
-    }
     .MetaContainer {
         display: flex;
         flex-flow: column nowrap;
@@ -120,6 +117,9 @@ img {
         gap: 2.5%;
         width: 90%;
         margin: auto;
+    }
+    .SiteTitle {
+        font-size: 200%; 
     }
     .LeftBox {
         display: none;
@@ -136,18 +136,6 @@ img {
 }
 /* This is for laptops/desktops. */
 @media only screen and (min-width: 1001px) {
-    html, body {
-        background-image: url('https://files.catbox.moe/r3iiz9.gif'); /*Animated BG*/
-        color: white;  
-        font-family: "NovaMono"; /*Main font for everything on the site*/
-        -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
-        scrollbar-width: none;  /* Firefox scroll bar hiding*/
-        letter-spacing: 1.5%;
-        word-spacing: -40%;
-        }
-    html::-webkit-scrollbar {
-        display: none;  /* Safari and Chrome scroll bar hiding*/
-    }
     h1 {
         font-size: 350%;
         font-weight: 300;
@@ -156,10 +144,9 @@ img {
     }
     /*h3 is reserved for navbar elements*/
     h3 {
-        font-size: 310%;
-        margin: 0px;
-        padding: 0px;
-        font-weight: 300;
+        font-size: 3em;
+        margin: 0%;
+        padding: 0%;
     }
     /*h3 is reserved for navbar elements*/
     p {
@@ -180,19 +167,6 @@ img {
         margin: 50px; 
         padding: 0% 1.1%;
         text-align: justify;
-    }
-
-    .SiteTitle {
-    width: fit-content;
-    text-align: center;
-    margin: .5% auto;
-    font-size: 450%; 
-    font-family: "Panic";
-    color: white;
-    text-decoration: none;
-    }
-    .PostBlock{
-        line-height: 180%;
     }
     .MetaContainer {
         display: flex;
@@ -220,9 +194,5 @@ img {
     }
     .NavbarMobile {
         display: none;
-    }
-    .ProfPic {
-        max-width: 96%;
-        max-height: 96%;
     }
 }
