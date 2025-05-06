@@ -85,20 +85,15 @@ img {
     }
     /*h3 is reserved for navbar elements*/
     p {
-        font-size: 150%;
         margin: 4%;
         text-align: justify;
         background-color: rgba(0, 8, 20, .40);
     }
     ol {
-        font-size: 250%;
-        margin: 25px;
         text-align: justify;
     }
     ul {
         list-style-type: "- ";
-        font-size: 250%;
-        margin: 50px; 
         padding: 0% 1.1%;
         text-align: justify;
     }
