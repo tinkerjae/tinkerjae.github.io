@@ -55,6 +55,7 @@ ul {
     width: fit-content;
     text-align: center;
     margin: .5% auto;
+    font-size: 450%; 
     font-family: "Panic";
     }
 .SiteTitleLink {
@@ -83,8 +84,8 @@ ul {
         }
     h1 {
         font-weight: 300;
-        margin: 0%;
-        padding: 0% 4%;
+        margin: 2%;
+        padding: 0% 1.1%;
     }
     /*h3 is reserved for navbar elements*/
     h3 {
