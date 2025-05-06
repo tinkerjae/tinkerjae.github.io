@@ -13,6 +13,12 @@ hr {
     border: 1.75px solid white;
     width: 100%;
 }
+img {
+    display: block;
+    margin: auto auto;
+    max-width: 92%;
+    height: auto;
+} 
 .Border{
     border: 4px;
     border-radius: 15px;
@@ -51,12 +57,7 @@ hr {
     html::-webkit-scrollbar {
         display: none;  /* Safari and Chrome scroll bar hiding*/
     }
-    img {
-        display: block;
-        margin: auto auto;
-        max-width: 92%;
-        height: auto;
-    } 
+
     h1 {
         font-size: 210%;
         font-weight: 300;
@@ -136,12 +137,6 @@ hr {
     html::-webkit-scrollbar {
         display: none;  /* Safari and Chrome scroll bar hiding*/
     }
-    img {
-        display: block;
-        margin: auto auto;
-        max-width: 92%;
-        height: auto;
-    } 
     h1 {
         font-size: 350%;
         font-weight: 300;
