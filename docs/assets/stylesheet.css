@@ -42,7 +42,7 @@ img {
     height: auto;
 }
 p {
-    text-align: justify;
+    text-align: start;
     background-color: rgba(0, 8, 20, .40);
 }
 ol {

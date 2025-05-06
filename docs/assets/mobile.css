@@ -21,8 +21,8 @@
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
-        gap: 2.5%;
-        width: 90%;
+        gap: 1.25%;
+        width: 97.5%;
         margin: auto;
     }
     .SiteTitle {
