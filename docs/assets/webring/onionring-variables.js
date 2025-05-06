@@ -8,9 +8,7 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://tinkerjae.xyz/',
-'https://gusbus.space/',
-'http://mariteaux.somnolescent.net',
-'https://raccoonbutt.com/',
+'https://mariteaux.somnolescent.net/contact/',
 'https://ralphsdigitalrecord.neocities.org/'
 ];
 
