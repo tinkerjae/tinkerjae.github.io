@@ -1,81 +1,3 @@
-@font-face {
-    font-family: 'NovaMono';
-    src: url('https://files.catbox.moe/di6c0b.woff'); /*References for the font*/
-}
-@font-face {
-    font-family: 'Panic';
-    src: url('https://files.catbox.moe/y08v74.woff'); /*Reference for the font*/
-}
-html {
-    background-image: url('https://files.catbox.moe/r3iiz9.gif'); /*Animated BG*/
-    color: white;  
-    font-family: "NovaMono"; /*Main font for everything on the site*/
-    -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
-    scrollbar-width: none;  /* Firefox scroll bar hiding*/
-    }
-html::-webkit-scrollbar {
-    display: none;  /* Safari and Chrome scroll bar hiding*/
-}
-a {
-    color: turquoise;
-}
-hr {
-    border: 1.75px solid white;
-    width: 100%;
-}
-img {
-    display: block;
-    margin: auto auto;
-    max-width: 92%;
-    height: auto;
-}
-p {
-    text-align: justify;
-    background-color: rgba(0, 8, 20, .40);
-}
-ol {
-    text-align: justify;
-}
-ul {
-    list-style-type: "-";
-    text-align: justify;
-}
-.Border{
-    border: 4px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: white;
-    }
-.marker {
-    border: 7px;
-    border-style: solid;
-    border-color: #ff69b4;
-    }
-.SiteTitle {
-    width: fit-content;
-    text-align: center;
-    margin: .5% auto;
-    font-size: 450%; 
-    font-family: "Panic";
-    }
-.SiteTitleLink {
-    width: min-content;
-    color: white;
-    text-decoration: none;
-    }
-.PostBlock{
-    line-height: 180%;
-}
-.MakerRing {
-    padding: 0% 1.1%;
-    text-align: justify;
-    width: fit-content;
-    margin: auto;
-}
-.ProfPic {
-    max-width: 96%;
-    max-height: 96%;
-}
 /* This is for phones/tablets. */
 @media only screen and (max-width: 1000px) {
     body {
@@ -83,22 +5,17 @@ ul {
         line-height: 1em;
         }
     h1 {
-        font-weight: 300;
-        margin: 2%;
-        padding: 0% 1.1%;
+        margin: 0%;
+        padding: 0% 4%;
     }
     /*h3 is reserved for navbar elements*/
     h3 {
-        margin: 0px;
-        padding: 0px;
-        font-weight: 300;
+        margin: 0%;
+        padding: 0%;
     }
     /*h3 is reserved for navbar elements*/
     p {
         margin: 4%;
-    }
-    ul {
-        padding: 0% 1.1%;
     }
     .MetaContainer {
         display: flex;
@@ -109,7 +26,8 @@ ul {
         margin: auto;
     }
     .SiteTitle {
-        font-size: 150%; 
+        font-size: 150%;
+        padding: 2%;
     }
     .LeftBox {
         display: none;
@@ -121,47 +39,5 @@ ul {
     }
     .MainBox {
         width: 100%;
-    }
-}
-/* This is for laptops/desktops. */
-@media only screen and (min-width: 1001px) {
-    body {
-        font-size: 100%;
-        margin: auto;
-        padding: auto;
-    }
-    h1 {
-        font-weight: 300;
-    }
-    /*h3 is reserved for navbar elements*/
-    h3 {
-    }
-    /*h3 is reserved for navbar elements*/
-    .MetaContainer {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        margin: auto;
-        gap: 2%;
-        width: 90%;
-        min-width: 760px;
-    }
-    .LeftBox {
-        width: 15%; 
-        min-width: 160px;
-        height: fit-content;
-        display: flex;
-        flex-flow: column nowrap;
-        text-align: center;
-        gap: 20px;
-    }
-    .MainBox {
-        line-height: 225%;
-        width: 85%;
-        min-width: 400px;
-        height: fit-content;
-    }
-    .NavbarMobile {
-        display: none;
     }
 }

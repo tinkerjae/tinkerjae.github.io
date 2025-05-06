@@ -1,3 +1,5 @@
+@import "desktop.css";
+@import "mobile.css";
 @font-face {
     font-family: 'NovaMono';
     src: url('https://files.catbox.moe/di6c0b.woff'); /*References for the font*/
@@ -19,6 +21,16 @@ html::-webkit-scrollbar {
 a {
     color: turquoise;
 }
+h1 {
+    font-weight: 300;
+
+}
+/*h3 is reserved for navbar elements*/
+h3 {
+    font-weight: 300;
+
+}
+/*h3 is reserved for navbar elements*/
 hr {
     border: 1.75px solid white;
     width: 100%;
@@ -39,6 +51,7 @@ ol {
 ul {
     list-style-type: "-";
     text-align: justify;
+    padding: 0% 4%;
 }
 .Border{
     border: 4px;
@@ -63,10 +76,10 @@ ul {
     text-decoration: none;
     }
 .PostBlock{
-    line-height: 180%;
+    line-height: auto;
 }
 .MakerRing {
-    padding: 0% 1.1%;
+    padding: 0% 4% 4% 4%;
     text-align: justify;
     width: fit-content;
     margin: auto;
@@ -74,93 +87,4 @@ ul {
 .ProfPic {
     max-width: 96%;
     max-height: 96%;
-}
-/* This is for phones/tablets. */
-@media only screen and (max-width: 1000px) {
-    body {
-        font-size: 150%;
-        line-height: 1em;
-        }
-    h1 {
-        font-weight: 300;
-        margin: 0%;
-        padding: 0% 4%;
-    }
-    /*h3 is reserved for navbar elements*/
-    h3 {
-        margin: 0px;
-        padding: 0px;
-        font-weight: 300;
-    }
-    /*h3 is reserved for navbar elements*/
-    p {
-        margin: 4%;
-    }
-    ul {
-        padding: 0% 1.1%;
-    }
-    .MetaContainer {
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        gap: 2.5%;
-        width: 90%;
-        margin: auto;
-    }
-    .SiteTitle {
-        font-size: 150%; 
-    }
-    .LeftBox {
-        display: none;
-    }
-    .NavbarMobile {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-    }
-    .MainBox {
-        width: 100%;
-    }
-}
-/* This is for laptops/desktops. */
-@media only screen and (min-width: 1001px) {
-    body {
-        font-size: 100%;
-        margin: auto;
-        padding: auto;
-    }
-    h1 {
-        font-weight: 300;
-    }
-    /*h3 is reserved for navbar elements*/
-    h3 {
-    }
-    /*h3 is reserved for navbar elements*/
-    .MetaContainer {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        margin: auto;
-        gap: 2%;
-        width: 90%;
-        min-width: 760px;
-    }
-    .LeftBox {
-        width: 15%; 
-        min-width: 160px;
-        height: fit-content;
-        display: flex;
-        flex-flow: column nowrap;
-        text-align: center;
-        gap: 20px;
-    }
-    .MainBox {
-        line-height: 225%;
-        width: 85%;
-        min-width: 400px;
-        height: fit-content;
-    }
-    .NavbarMobile {
-        display: none;
-    }
 }
