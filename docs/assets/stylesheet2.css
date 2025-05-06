@@ -67,7 +67,7 @@ img {
 }
 /* This is for phones/tablets. */
 @media only screen and (max-width: 1000px) {
-    html, body {
+    body {
         font-size: 100%;
         }
     h1 {
