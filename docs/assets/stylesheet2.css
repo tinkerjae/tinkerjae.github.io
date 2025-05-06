@@ -6,6 +6,35 @@
     font-family: 'Panic';
     src: url('https://files.catbox.moe/y08v74.woff'); /*Reference for the font*/
 }
+a {
+    color: turquoise;
+}
+hr {
+    border: 1.75px solid white;
+    width: 100%;
+}
+.Border{
+    border: 4px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    }
+.marker {
+    border: 7px;
+    border-style: solid;
+    border-color: #ff69b4;
+    }
+.SiteTitleLink {
+    width: min-content;
+    color: white;
+    text-decoration: none;
+    }
+.MakerRing {
+    padding: 0% 1.1%;
+    text-align: justify;
+    width: fit-content;
+    margin: auto;
+}
 /* This is for phones/tablets. */
 @media only screen and (max-width: 1000px) {
     html, body {
@@ -28,13 +57,6 @@
         max-width: 92%;
         height: auto;
     } 
-    a {
-        color: turquoise;
-    }
-    hr {
-        border: 1.75px solid white;
-        width: 100%;
-    }
     h1 {
         font-size: 210%;
         font-weight: 300;
@@ -67,28 +89,12 @@
         padding: 0% 1.1%;
         text-align: justify;
     }
-    .marker {
-        border: 7px;
-        border-style: solid;
-        border-color: #ff69b4;
-        }
-    .Border{
-    border: 4px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: white;
-    }
     .SiteTitle {
     width: fit-content;
     text-align: center;
     margin: .5% auto;
     font-size: 450%; 
     font-family: "Panic";
-    color: white;
-    text-decoration: none;
-    }
-    .SiteTitleLink {
-    width: min-content;
     color: white;
     text-decoration: none;
     }
@@ -115,13 +121,6 @@
         line-height: 225%;
         width: 100%;
     }
-    .MakerRing {
-        font-size: 250%;
-        padding: 0% 1.1%;
-        text-align: justify;
-        width: fit-content;
-        margin: auto;
-    }   
 }
 /* This is for laptops/desktops. */
 @media only screen and (min-width: 1001px) {
@@ -143,13 +142,6 @@
         max-width: 92%;
         height: auto;
     } 
-    a {
-        color: turquoise;
-    }
-    hr {
-        border: 1.75px solid white;
-        width: 100%;
-    }
     h1 {
         font-size: 350%;
         font-weight: 300;
@@ -183,28 +175,13 @@
         padding: 0% 1.1%;
         text-align: justify;
     }
-    .marker {
-        border: 7px;
-        border-style: solid;
-        border-color: #ff69b4;
-        }
-    .Border{
-    border: 4px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: white;
-    }
+
     .SiteTitle {
     width: fit-content;
     text-align: center;
     margin: .5% auto;
     font-size: 450%; 
     font-family: "Panic";
-    color: white;
-    text-decoration: none;
-    }
-    .SiteTitleLink {
-    width: min-content;
     color: white;
     text-decoration: none;
     }
@@ -241,12 +218,5 @@
     .ProfPic {
         max-width: 96%;
         max-height: 96%;
-    }
-    .MakerRing {
-        font-size: 250%;
-        padding: 0% 1.1%;
-        text-align: justify;
-        width: fit-content;
-        margin: auto;
     }
 }
