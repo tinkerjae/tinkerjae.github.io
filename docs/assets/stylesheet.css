@@ -116,10 +116,10 @@ text-decoration: none;
 }
 .MakerRing {
     font-size: 250%;
-    margin: 2%;
     padding: 0% 1.1%;
     text-align: justify;
-    align-items: center;
+    width: fit-content;
+    margin: auto;
 }
 }
 /* This is for laptops/desktops. */

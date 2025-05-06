@@ -17,7 +17,7 @@ If you'd like to make a website like this, check out my [web dev resources](/web
 {% assign sortedPages = site.pages | sort: 'title' %}
 {% for page in sortedPages %}   
 {% if page.layout == "cat2" %}
-[{{page.title}}]({{page.url}}): {{page.excerpt}}
+&nbsp;&nbsp;&nbsp;[{{page.title}}]({{page.url}}): {{page.excerpt}}
 {% endif %}
 {% endfor %}
 
