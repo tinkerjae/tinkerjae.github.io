@@ -12,4 +12,3 @@ excerpt: For stuff that doesn't quite fit.
 </div>
 {% endif %}
 {% endfor %}
-<div class="Spacer"></div>

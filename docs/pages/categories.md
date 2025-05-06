@@ -10,4 +10,3 @@ excerpt: For posts/pages sub divided into different categories.
 [{{page.title}}]({{page.url}}): {{page.excerpt}}
 {% endif %}
 {% endfor %}
-<div class="Spacer"></div>

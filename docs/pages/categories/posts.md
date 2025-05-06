@@ -2,7 +2,7 @@
 layout: cat2
 permalink: /posts/
 title: Posts
-excerpt: This shows all of our posts ever made.
+excerpt: This shows all posts ever made.
 ---
 {% for post in site.posts %}
 <div class="PostBlock"> 

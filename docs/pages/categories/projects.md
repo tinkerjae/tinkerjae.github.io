@@ -2,7 +2,7 @@
 layout: cat2
 permalink: /projects/
 title: Projects
-excerpt: Stuff I've made or am working on.
+excerpt: Projects I've worked on.
 ---
 {% for post in site.categories.projects %}
 <div class="PostBlock"> 
