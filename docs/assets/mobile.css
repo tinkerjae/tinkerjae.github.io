@@ -1,7 +1,7 @@
 /* This is for phones/tablets. */
 @media only screen and (max-width: 1000px) {
     body {
-        font-size: 230%;
+        font-size: 225%;
         line-height: 1em;
         }
     h1 {
@@ -21,12 +21,11 @@
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
-        gap: .5%;
-        width: 99%;
+        width: 100%;
         margin: auto;
     }
     .SiteTitle {
-        font-size: 130%;
+        font-size: 120%;
         padding: 2%;
     }
     .LeftBox {
