@@ -10,7 +10,6 @@
 }
 html {
     background-image: url('https://files.catbox.moe/r3iiz9.gif'); /*Animated BG*/
-    color: white;  
     font-family: "NovaMono"; /*Main font for everything on the site*/
     -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
     scrollbar-width: none;  /* Firefox scroll bar hiding*/
@@ -18,21 +17,17 @@ html {
 html::-webkit-scrollbar {
     display: none;  /* Safari and Chrome scroll bar hiding*/
 }
-a {
-    color: turquoise;
-}
 h1 {
     font-weight: 300;
-
 }
 /*h3 is reserved for navbar elements*/
 h3 {
     font-weight: 300;
-
 }
 /*h3 is reserved for navbar elements*/
 hr {
-    border: 1.75px solid white;
+    border: 1.75px;
+    border-style: solid;
     width: 100%;
 }
 img {
@@ -43,7 +38,6 @@ img {
 }
 p {
     text-align: start;
-    background-color: rgba(0, 8, 20, .40);
 }
 ol {
     text-align: justify;
@@ -58,7 +52,6 @@ ul {
     border: 4px;
     border-radius: 15px;
     border-style: solid;
-    border-color: white;
     }
 .marker {
     border: 7px;
@@ -73,10 +66,9 @@ ul {
     }
 .SiteTitleLink {
     width: min-content;
-    color: white;
     text-decoration: none;
     }
-.PostBlock{
+.PostBlock{     
     line-height: auto;
 }
 .MakerRing {
@@ -89,3 +81,14 @@ ul {
     max-width: 96%;
     max-height: 96%;
 }
+/*COLORS!*/
+.MainBox , .NavbarDesktop , .NavbarMobile{
+    background-color: rgba(0, 8, 20, .65);
+}
+hr, html, .Border, .SiteTitleLink{
+    color: rgba(243, 234, 237, 1);
+}
+a{
+    color: turquoise;
+}
+/*COLORS!*/

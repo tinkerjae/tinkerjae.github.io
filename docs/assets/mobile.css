@@ -1,7 +1,7 @@
 /* This is for phones/tablets. */
 @media only screen and (max-width: 1000px) {
     body {
-        font-size: 200%;
+        font-size: 250%;
         line-height: 1em;
         }
     h1 {
