@@ -1,7 +1,7 @@
 /* This is for phones/tablets. */
 @media only screen and (max-width: 1000px) {
     body {
-        font-size: 225%;
+        font-size: 200%;
         line-height: 1em;
         }
     h1 {
@@ -25,7 +25,7 @@
         margin: auto;
     }
     .SiteTitle {
-        font-size: 120%;
+        font-size: 100%;
         padding: 2%;
     }
     .LeftBox {
