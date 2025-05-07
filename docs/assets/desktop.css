@@ -41,7 +41,7 @@
     .MainBox {
         width: 85%;
         min-width: 400px;
-        height: calc(500%);
+        height: fit-content;
     }
     .NavbarMobile {
         display: none;
