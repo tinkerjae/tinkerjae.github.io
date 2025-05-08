@@ -14,11 +14,8 @@ html {
     -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
     scrollbar-width: none;  /* Firefox scroll bar hiding*/
     }
-h1 {
-    font-weight: 300;
-}
 /*h3 is reserved for navbar elements*/
-h3 {
+h1, h3{
     font-weight: 300;
 }
 /*h3 is reserved for navbar elements*/
