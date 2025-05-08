@@ -14,9 +14,6 @@ html {
     -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
     scrollbar-width: none;  /* Firefox scroll bar hiding*/
     }
-html::-webkit-scrollbar {
-    display: none;  /* Safari and Chrome scroll bar hiding*/
-}
 h1 {
     font-weight: 300;
 }
