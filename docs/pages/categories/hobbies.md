@@ -4,6 +4,7 @@ permalink: /hobbies/
 title: Hobbies
 excerpt: Posts about hobbies I enjoy.
 ---
+<br>
 {% for post in site.categories.hobbies %}
 <div class="PostBlock"> 
 <p>

@@ -4,6 +4,7 @@ permalink: /blog/
 title: Blog
 excerpt: Posts about my life and stuff.
 ---
+<br>
 {% for post in site.categories.blog %}
 <div class="PostBlock"> 
 <p>

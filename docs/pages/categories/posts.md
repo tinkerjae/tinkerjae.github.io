@@ -4,6 +4,7 @@ permalink: /posts/
 title: Posts
 excerpt: This shows all posts ever made.
 ---
+<br>
 {% for post in site.posts %}
 <div class="PostBlock"> 
 <p>

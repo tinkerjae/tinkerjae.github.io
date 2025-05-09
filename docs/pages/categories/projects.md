@@ -4,6 +4,7 @@ permalink: /projects/
 title: Projects
 excerpt: Projects I've worked on.
 ---
+<br>
 {% for post in site.categories.projects %}
 <div class="PostBlock"> 
 <p>
