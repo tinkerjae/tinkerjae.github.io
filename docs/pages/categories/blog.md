@@ -17,6 +17,7 @@ excerpt: Posts about my life and stuff.
         n/a;
         {% endfor %}<br>
     {{post.excerpt | strip_html}}<br>
+    <br>
 </p>
 </div>
 {% endfor %}

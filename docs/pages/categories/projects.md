@@ -17,6 +17,7 @@ excerpt: Projects I've worked on.
         n/a;
         {% endfor %}<br>
     {{post.excerpt | strip_html}}<br>
+    <br>
 </p>
 </div>
 {% endfor %}

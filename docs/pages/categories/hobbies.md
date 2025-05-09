@@ -17,6 +17,7 @@ excerpt: Posts about hobbies I enjoy.
         n/a;
         {% endfor %}<br>
     {{post.excerpt | strip_html}}<br>
+    <br>
 </p>
 </div>
 {% endfor %}

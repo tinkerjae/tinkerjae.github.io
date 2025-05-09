@@ -17,6 +17,7 @@ excerpt: This shows all posts ever made.
         n/a;
         {% endfor %}<br>
     {{post.excerpt | strip_html}}<br>
+    <br>
 </p>
 </div>
 {% endfor %}
