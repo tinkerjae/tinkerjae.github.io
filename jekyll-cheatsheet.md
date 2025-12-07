@@ -4,6 +4,16 @@ Some things have been changed, but not much.
 Jekyll cheatsheet
 Installation
 
+# For Jae!
+To test our site locally:
+  bundle exec jekyll serve --livereload
+To build our site for Github step 1:
+  bundle exec jekyll build
+To build our site for Github step 2: 
+  Merge all commits from vX.Y to main.
+To update Gems for new plugins or updates:
+  bundle update
+
 # Install the gems
 gem install jekyll bundler
 
