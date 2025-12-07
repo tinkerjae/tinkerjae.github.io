@@ -1,0 +1,43 @@
+/* This is for phones/tablets. */
+@media only screen and (max-width: 1000px) {
+    body {
+        font-size: 180%;
+        line-height: 1em;
+        }
+    h1 {
+        margin: 0%;
+        padding: 0% 4%;
+    }
+    /*h3 is reserved for navbar elements*/
+    h3 {
+        margin: 0%;
+        padding: 0%;
+    }
+    /*h3 is reserved for navbar elements*/
+    p {
+        margin: 4%;
+        font-size: 110%;
+    }
+    .MetaContainer {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .SiteTitle {
+        font-size: 135%;
+        padding: 2%;
+    }
+    .LeftBox {
+        display: none;
+    }
+    .NavbarMobile {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .MainBox {
+        width: 100%;
+    }
+}

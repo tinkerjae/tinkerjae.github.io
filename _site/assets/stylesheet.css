@@ -1,0 +1,88 @@
+@import "desktop.css";
+@import "mobile.css";
+@font-face {
+    font-family: 'NovaMono';
+    src: url('https://files.catbox.moe/di6c0b.woff'); /*References for the font*/
+}
+@font-face {
+    font-family: 'Panic';
+    src: url('https://files.catbox.moe/y08v74.woff'); /*Reference for the font*/
+}
+html {
+    background-image: url('https://files.catbox.moe/r3iiz9.gif'); /*Animated BG*/
+    font-family: "NovaMono"; /*Main font for everything on the site*/
+    -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
+    scrollbar-width: none;  /* Firefox scroll bar hiding*/
+    }
+/*h3 is reserved for navbar elements*/
+h1, h3{
+    font-weight: 300;
+}
+/*h3 is reserved for navbar elements*/
+hr {
+    border: 1.75px;
+    border-style: solid;
+    width: 100%;
+}
+img {
+    display: block;
+    margin: auto auto;
+    max-width: 92%;
+    height: auto;
+}
+p {
+    text-align: start;
+}
+ol {
+    text-align: justify;
+    padding: 0% 6.5%;
+}
+ul {
+    list-style-type: "-";
+    text-align: justify;
+    padding: 0% 4.5%;
+}
+.Border{
+    border: 4px;
+    border-radius: 15px;
+    border-style: solid;
+    }
+.marker {
+    border: 7px;
+    border-style: solid;
+    border-color: #ff69b4;
+    }
+.SiteTitle {
+    width: fit-content;
+    text-align: center;
+    margin: .5% auto;
+    font-family: "Panic";
+    }
+.SiteTitleLink {
+    width: min-content;
+    text-decoration: none;
+    }
+.PostBlock{     
+    line-height: auto;
+}
+.MakerRing {
+    padding: 0% 4% 0% 4%;
+    text-align: justify;
+    width: fit-content;
+    margin: auto;
+}
+.ProfPic {
+    max-width: 96%;
+    max-height: 96%;
+}
+/*COLORS!*/
+.MainBox , .NavbarDesktop , .NavbarMobile{
+    background-color: rgba(0, 8, 20, .65);
+}
+hr, html, .Border, .SiteTitleLink{
+    color: rgba(243, 234, 237, 1);
+}
+a{
+    color: turquoise;
+}
+/*COLORS!*/
