@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'NovaMono';
+    src: url('https://files.catbox.moe/di6c0b.woff'); /*References for the font*/
+}
+@font-face {
+    font-family: 'Panic';
+    src: url('https://files.catbox.moe/y08v74.woff'); /*Reference for the font*/
+}
+html {
+    background-image: url('https://files.catbox.moe/r3iiz9.gif'); /*Animated BG*/
+    font-family: 'NovaMono'; /*Main font for everything on the site*/
+    -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
+    scrollbar-width: none;  /* Firefox scroll bar hiding*/
+}
+/*h3 is reserved for navbar elements*/
+h1, h3{
+    font-weight: 300;
+}
+/*h3 is reserved for navbar elements*/
+hr {
+    border: 1.75px;
+    border-style: solid;
+    width: 100%;
+}
+img {
+    display: block;
+    margin: auto auto;
+    max-width: 92%;
+    height: auto;
+}
+p {
+    text-align: start;
+}
+ol {
+    text-align: justify;
+    padding: 0% 6.5%;
+}
+ul {
+    list-style-type: "-";
+    text-align: justify;
+    padding: 0% 4.5%;
+}
+.Border{
+    border: 4px;
+    border-radius: 15px;
+    border-style: solid;
+    }
+.marker {
+    border: 7px;
+    border-style: solid;
+    border-color: #ff69b4;
+    }
+.SiteTitle {
+    width: fit-content;
+    text-align: center;
+    margin: .5% auto;
+    font-family: "Panic";
+    }
+.SiteTitleLink {
+    width: min-content;
+    text-decoration: none;
+    }
+.PostBlock{     
+    line-height: auto;
+}
+.MakerRing {
+    padding: 0% 4% 0% 4%;
+    text-align: justify;
+    width: fit-content;
+    margin: auto;
+}
+.ProfPic {
+    max-width: 96%;
+    max-height: 96%;
+}
+/*COLORS!*/
+.MainBox , .NavbarDesktop , .NavbarMobile{
+    background-color: rgba(0, 8, 20, .65);
+}
+hr, html, .Border, .SiteTitleLink{
+    color: rgba(243, 234, 237, 1);
+}
+a{
+    color: turquoise;
+}
+/*COLORS!*/
+@media only screen and (min-width: 1001px) {
+    body {
+        font-size: 245%;
+        line-height: 1em;
+    }
+    h1 {
+        font-weight: 300;
+        padding: 1.5% 3%;
+        margin: 0%;
+    }
+    /*h3 is reserved for navbar elements*/
+    h3 {
+        margin: 6%;
+    }
+    /*h3 is reserved for navbar elements*/
+    p{
+        margin: 0% 3%;
+    }
+    hr{
+        margin: 4% 0% 0% 0%;
+    }
+    .MetaContainer {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        margin: auto;
+        gap: 2%;
+        width: 90%;
+        min-width: 760px;
+    }
+    .LeftBox {
+        width: 15%; 
+        min-width: 160px;
+        height: fit-content;
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        gap: 20px;
+    }
+    .MainBox {
+        width: 85%;
+        min-width: 400px;
+        height: fit-content;
+    }
+    .NavbarMobile {
+        display: none;
+    }
+    .Spacer {
+        margin: 2%;
+    }
+}
+/* This is for phones/tablets. */
+@media only screen and (max-width: 1000px) {
+    body {
+        font-size: 180%;
+        line-height: 1em;
+        }
+    h1 {
+        margin: 0%;
+        padding: 0% 4%;
+    }
+    /*h3 is reserved for navbar elements*/
+    h3 {
+        margin: 0%;
+        padding: 0%;
+    }
+    /*h3 is reserved for navbar elements*/
+    p {
+        margin: 4%;
+        font-size: 110%;
+    }
+    .MetaContainer {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .SiteTitle {
+        font-size: 135%;
+        padding: 2%;
+    }
+    .LeftBox {
+        display: none;
+    }
+    .NavbarMobile {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .MainBox {
+        width: 100%;
+    }
+}
