@@ -14,6 +14,7 @@ html {
 }
 /* ALL˅ FONT/ELEMENT TESTING !!!!!!!! */
 /* USE THIS!!!!! NOTE FROM JAE: https://www.w3schools.com/cssref/css_ref_combinators.php */
+/* order goes {ul/ol > li > ul/ol > li > and so on.}*/
 h1, h2, h3 {
     margin: 1% 3%;
 }
