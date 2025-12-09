@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'NovaMono';
-    src: url('https://files.catbox.moe/di6c0b.woff'); /*References for the font*/
+    font-family: 'InriaSans-Regular';
+    src: url('https://files.catbox.moe/9y3ecu.woff'); /*References for the body font*/
 }
 @font-face {
     font-family: 'Panic';
-    src: url('https://files.catbox.moe/y08v74.woff'); /*Reference for the font*/
+    src: url('https://files.catbox.moe/y08v74.woff'); /*Reference for the title font*/
 }
 html {
     background-image: url('https://files.catbox.moe/r3iiz9.gif'); /*Animated BG*/
-    font-family: 'Inria Sans'; /*Main font for everything on the site*/
+    font-family: 'InriaSans-Regular'; /*Main font for everything on the site*/
     -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
     scrollbar-width: none;  /* Firefox scroll bar hiding*/
 }
@@ -20,12 +20,9 @@ body {
     list-style-position: inside;
     letter-spacing: 2.5%;
 }
-h1, h2, h3, h4, h5, h6 {
-    margin: 1% 3%;
-    font-weight: inherit;
-}
-p, ul, ol {
+h1, h2, h3, h4, h5, h6, p, ul, ol {
     margin: 2% 3%;
+    font-weight: inherit;
     padding: 0%;
 }
 .PostBlock{     
