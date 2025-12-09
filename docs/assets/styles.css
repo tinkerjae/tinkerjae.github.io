@@ -8,9 +8,77 @@
 }
 html {
     background-image: url('https://files.catbox.moe/r3iiz9.gif'); /*Animated BG*/
-    font-family: 'NovaMono'; /*Main font for everything on the site*/
+    font-family: 'Inter'; /*Main font for everything on the site*/
     -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
     scrollbar-width: none;  /* Firefox scroll bar hiding*/
+}
+/* ALL FONT/ELEMENT TESTING !!!!!!!! */
+h1, h2, h3 {
+    font-size: 200%;
+    margin: 1% 3%;
+}
+ol {
+    text-align: justify;
+    padding: 0% 6.5%;
+}
+ul {
+    list-style-type: "-";
+    text-align: justify;
+    padding: 0% 4.5%;
+}
+p {
+    text-align: start;
+    margin: 1% 3%;
+    font-size: 150%;
+}
+.SiteTitle {
+    width: fit-content;
+    text-align: center;
+    margin: .5% auto;
+    font-family: "Panic";
+    font-size: 500%;
+    padding: 2%;
+    font-weight: 400;
+    }
+.SiteTitleLink {
+    width: min-content;
+    text-decoration: none;
+    }
+.PostBlock{     
+    line-height: auto;
+}
+/* ALL FONT/ELEMENT TESTING !!!!!!!! */
+hr {
+    border: 1.75px;
+    border-style: solid;
+    width: 100%;
+    margin: 4% 0% 0% 0%;
+}
+img {
+    display: block;
+    margin: auto auto;
+    max-width: 92%;
+    height: auto;
+}
+.Border {
+    border: 4px;
+    border-radius: 15px;
+    border-style: solid;
+    }
+.marker {
+    border: 7px;
+    border-style: solid;
+    border-color: #ff69b4;
+    }
+.MakerRing {
+    padding: 0% 4% 0% 4%;
+    text-align: justify;
+    width: fit-content;
+    margin: auto;
+}
+.ProfPic {
+    max-width: 96%;
+    max-height: 96%;
 }
 /*COLORS!*/
 .MainBox , .NavbarDesktop , .NavbarMobile{
@@ -23,3 +91,54 @@ a{
     color: turquoise;
 }
 /*COLORS!*/
+.Spacer {
+    margin: 2%;
+}
+.MetaContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: auto;
+    gap: 2%;
+    width: 90%;
+}
+.LeftBox, .RightBox {
+    width: 15%; 
+    min-width: 160px;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    gap: 20px;
+}
+.NavbarDesktop > h3 {
+    margin: 5% 0%;
+}
+.MainBox {
+    width: 55%;
+    height: fit-content;
+}
+.NavbarMobile {
+    display: none;
+}
+/* This is for phones/tablets. */
+@media only screen and (max-width: 1000px) {
+    .MetaContainer {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .LeftBox, .RightBox {
+        display: none;
+    }
+    .MainBox {
+        width: 100%;
+    }
+    .NavbarMobile {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
