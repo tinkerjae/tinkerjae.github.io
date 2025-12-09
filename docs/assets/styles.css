@@ -12,24 +12,29 @@ html {
     -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
     scrollbar-width: none;  /* Firefox scroll bar hiding*/
 }
-/* ALL FONT/ELEMENT TESTING !!!!!!!! */
+/* ALL˅ FONT/ELEMENT TESTING !!!!!!!! */
 h1, h2, h3 {
-    font-size: 200%;
     margin: 1% 3%;
 }
-ol {
-    text-align: justify;
-    padding: 0% 6.5%;
+p, ul, ol {
+    text-align:initial;
+    margin: 2% 3%;
+    list-style-position: inside;
+    padding: 0%;
 }
-ul {
-    list-style-type: "-";
-    text-align: justify;
-    padding: 0% 4.5%;
-}
-p {
-    text-align: start;
-    margin: 1% 3%;
+p, li {
     font-size: 150%;
+}
+ul > li {
+    font-size: 150%;
+}
+.PostBlock{     
+    line-height: auto;
+}
+.NavbarDesktop > h3 {
+    margin: 5% 0%;
+    font-size: 150%;
+    font-weight: initial;
 }
 .SiteTitle {
     width: fit-content;
@@ -37,17 +42,13 @@ p {
     margin: .5% auto;
     font-family: "Panic";
     font-size: 500%;
-    padding: 2%;
-    font-weight: 400;
+    font-weight: 500;
     }
 .SiteTitleLink {
     width: min-content;
     text-decoration: none;
     }
-.PostBlock{     
-    line-height: auto;
-}
-/* ALL FONT/ELEMENT TESTING !!!!!!!! */
+/* ALL˄ FONT/ELEMENT TESTING !!!!!!!! */
 hr {
     border: 1.75px;
     border-style: solid;
@@ -70,6 +71,19 @@ img {
     border-style: solid;
     border-color: #ff69b4;
     }
+
+/*COLORS˅!*/
+.MainBox , .NavbarDesktop , .NavbarMobile{
+    background-color: rgba(0, 8, 20, .65);
+}
+hr, html, .Border, .SiteTitleLink{
+    color: rgba(243, 234, 237, 1);
+}
+a{
+    color: turquoise;
+}
+/*COLORS˄!*/
+/* ALL˅ BOX/SECTION/DIV TESTING !!!!!!!! */
 .MakerRing {
     padding: 0% 4% 0% 4%;
     text-align: justify;
@@ -80,17 +94,6 @@ img {
     max-width: 96%;
     max-height: 96%;
 }
-/*COLORS!*/
-.MainBox , .NavbarDesktop , .NavbarMobile{
-    background-color: rgba(0, 8, 20, .65);
-}
-hr, html, .Border, .SiteTitleLink{
-    color: rgba(243, 234, 237, 1);
-}
-a{
-    color: turquoise;
-}
-/*COLORS!*/
 .Spacer {
     margin: 2%;
 }
@@ -111,9 +114,6 @@ a{
     text-align: center;
     gap: 20px;
 }
-.NavbarDesktop > h3 {
-    margin: 5% 0%;
-}
 .MainBox {
     width: 55%;
     height: fit-content;
@@ -121,7 +121,8 @@ a{
 .NavbarMobile {
     display: none;
 }
-/* This is for phones/tablets. */
+/* ALL˄ BOX/SECTION/DIV TESTING !!!!!!!! */
+/* This˅ is for phones/tablets. */
 @media only screen and (max-width: 1000px) {
     .MetaContainer {
         display: flex;
@@ -142,3 +143,4 @@ a{
         justify-content: space-around;
     }
 }
+/* This˄ is for phones/tablets. */

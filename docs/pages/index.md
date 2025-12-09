@@ -13,7 +13,14 @@ If you'd like to make a website like this, check out my [web dev resources](/web
 [Home](/): {{page.excerpt}}
 
 [Categories](/categories/): My posts divided into different categories.
+1. test 2
 
+- Test, test, this is just a test.
+    - Fortnite sigma
+        - bruh 
+            - level 4
+                - level 5
+- If bobby had 25 apples 
 {% assign sortedPages = site.pages | sort: 'title' %}
 {% for page in sortedPages %}   
 {% if page.layout == "cat2" %}
