@@ -9,35 +9,26 @@ This website exists as my personal home on the internet where I can post about m
 
 If you'd like to make a website like this, check out my [web dev resources](/webdevresources/).
 <hr>
-<h1><u>Sitemap</u></h1>
+## <u>Sitemap</u>
 [Home](/): {{page.excerpt}}
 
 [Categories](/categories/): My posts divided into different categories.
-1. test 2
-
-- Test, test, this is just a test.
-    - Fortnite sigma
-        - bruh 
-            - level 4
-                - level 5
-- If bobby had 25 apples 
 {% assign sortedPages = site.pages | sort: 'title' %}
 {% for page in sortedPages %}   
 {% if page.layout == "cat2" %}
 &nbsp;&nbsp;&nbsp;[{{page.title}}]({{page.url}}): {{page.excerpt}}
 {% endif %}
 {% endfor %}
-
 [Misc](/misc/): For stuff that doesn't quite fit anywhere else.
 
 <hr>
-<h1><u>Contact Me</u></h1>
+## <u>Contact Me</u>
 If you wanna hit me up, here's my main methods of contact.
 
 Email (remove NOSPAM from the address): <a href="mailto:{{site.email}}">{{site.email}}</a>
 
 <hr>
-<h1><u>Webring</u></h1>
+## <u>Webring</u>
 I'm apart of the Maker Webring!
 <div id='D1D1D0904CC346DB' class="MakerRing">
     <script type="text/javascript" src="https://tinkerjae.xyz/assets/webring/onionring-variables.js"></script>
