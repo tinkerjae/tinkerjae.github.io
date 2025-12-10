@@ -10,10 +10,10 @@
 }
 html {
     background-image: url('https://files.catbox.moe/r3iiz9.gif'); /*Animated BG*/
-    font-family: "NovaMono"; /*Main font for everything on the site*/
+    font-family: 'NovaMono'; /*Main font for everything on the site*/
     -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
     scrollbar-width: none;  /* Firefox scroll bar hiding*/
-    }
+}
 /*h3 is reserved for navbar elements*/
 h1, h3{
     font-weight: 300;

@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'InriaSans-Regular';
+    src: url('https://files.catbox.moe/9y3ecu.woff'); /*References for the body font*/
+}
+@font-face {
+    font-family: 'Panic';
+    src: url('https://files.catbox.moe/y08v74.woff'); /*Reference for the title font*/
+}
+html {
+    background-image: url('https://files.catbox.moe/r3iiz9.gif'); /*Animated BG*/
+    font-family: 'InriaSans-Regular'; /*Main font for everything on the site*/
+    -ms-overflow-style: none;  /* Internet Explorer 10+ scroll bar hiding*/
+    scrollbar-width: none;  /* Firefox scroll bar hiding*/
+}
+/* ALL˅ FONT/ELEMENT TESTING !!!!!!!! */
+body {
+    font-size: 150%;
+    text-align: initial;
+    font-weight: initial;
+    list-style-position: inside;
+    letter-spacing: 2.5%;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 2% 3%;
+    font-weight: inherit;
+    padding: 0%;
+}
+.PostBlock{     
+    line-height: auto;
+}
+.NavbarDesktop > h3 {
+    margin: 7% 0%;
+}
+.SiteTitle {
+    width: fit-content;
+    text-align: center;
+    margin: 1% auto;
+    font-family: "Panic";
+    font-size: 225%;
+    }
+.SiteTitleLink {
+    width: min-content;
+    text-decoration: none;
+    }
+hr {
+    border: 1.75px;
+    border-style: solid;
+    width: 100%;
+    margin: 4% 0%;
+}
+img {
+    display: block;
+    margin: auto auto;
+    max-width: 92%;
+    height: auto;
+}
+.Border {
+    border: 4px;
+    border-radius: 15px;
+    border-style: solid;
+    }
+.marker {
+    border: 7px;
+    border-style: solid;
+    border-color: #ff69b4;
+    }
+/* ALL˄ FONT/ELEMENT TESTING !!!!!!!! */
+/*COLORS˅!*/
+.MainBox , .NavbarDesktop , .NavbarMobile{
+    background-color: rgba(0, 8, 20, .65);
+}
+hr, html, .Border, .SiteTitleLink{
+    color: rgba(243, 234, 237, 1);
+}
+a{
+    color: turquoise;
+}
+/*COLORS˄!*/
+/* ALL˅ BOX/SECTION/DIV TESTING !!!!!!!! */
+.MakerRing {
+    padding: 0% 4% 0% 4%;
+    text-align: justify;
+    width: fit-content;
+    margin: auto;
+}
+.ProfPic {
+    max-width: 96%;
+    max-height: 96%;
+}
+.Spacer {
+    margin: 2%;
+}
+.MetaContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: auto;
+    gap: 2%;
+    width: 90%;
+}
+.LeftBox, .RightBox {
+    width: 15%; 
+    min-width: 160px;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    gap: 20px;
+}
+.MainBox {
+    width: 60%;
+    height: fit-content;
+}
+.NavbarMobile {
+    display: none;
+}
+/* ALL˄ BOX/SECTION/DIV TESTING !!!!!!!! */
+/* This˅ is for phones/tablets. */
+@media only screen and (max-width: 1000px) {
+    body{
+        font-size: 100%;
+    }
+    .MetaContainer {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .LeftBox, .RightBox {
+        display: none;
+    }
+    .MainBox {
+        width: 100%;
+    }
+    .NavbarMobile {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        height: 1%;
+    }
+    .NavbarMobile > hr {
+        margin-top: 0%;
+    }
+}
+/* This˄ is for phones/tablets. */
