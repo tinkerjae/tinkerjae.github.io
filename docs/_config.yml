@@ -46,7 +46,6 @@ navbar_mobile:
           </div>
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
