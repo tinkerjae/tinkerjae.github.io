@@ -2,10 +2,6 @@
 layout: default
 title: Posts
 permalink: /posts/
-tags:
-    - test 1
-    - test 2 
-    - test 3
 ---
 This page shows all of my posts !!
 {% for post in site.posts %}
