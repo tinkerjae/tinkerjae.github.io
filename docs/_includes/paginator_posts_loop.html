@@ -4,8 +4,8 @@
 {% if post.tags.size > 1 %}
 Tags: 
     {% for tag in post.tags %}
-        <a href="/all/{{ tag | downcase }}">{{ tag }}</a>; 
+        <a href={{ tag | prepend: '/all/' }}>{{ tag | capitalize }}</a>; 
     {% endfor %}
 {% endif %}
 </p>
-{% endfor %}
+{% endfor %} 
