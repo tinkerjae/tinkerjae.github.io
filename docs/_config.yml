@@ -33,6 +33,7 @@ profpic: https://files.catbox.moe/o2hqdb.jpg # a link to our profile picture sit
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -57,7 +58,7 @@ pagination:
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
   # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
-  title: ':title - page :num'
+  title: ':title - Page :num'
 
   # Limit how many pagenated pages to create (default: 0, means all)
   limit: 0
@@ -92,7 +93,38 @@ pagination:
   # Without file extension
   indexpage: 'index'
 ############################################################
+# Site configuration for the Auto-Pages feature
+# The values here represent the defaults if nothing is set
+autopages:
 
+  # Site-wide kill switch, disable here and it doesn't run at all 
+  enabled: true
+  # Category pages, omit entire config element to disable
+  categories: 
+    # Optional, the list of layouts that should be processed for every category found in the site
+    layouts: 
+      - 'autopage.html'
+    # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
+    title: 'Posts in category ":cat"'
+    # Optional, the permalink for the  pagination page (:cat is replaced), 
+    # the pagination permalink path is then appended to this permalink structure
+    permalink: '/:cat/'
+    # Optional, when true logging related to category pages will be supressed.
+    silent: false
+    slugify:
+      mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
+      case: false       # Whether to replace all uppercase letters with their lowercase counterparts
+  # Tag pages, omit to disable
+  tags:
+    layouts: 
+      - 'autopage.html'
+    title: 'Posts tagged with ":tag"' # :tag is replaced by the tag name
+    permalink: '/all/:tag'
+    silent: false
+    slugify:
+      mode: 'default' # :tag is slugified.
+      case: false
+############################################################
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
