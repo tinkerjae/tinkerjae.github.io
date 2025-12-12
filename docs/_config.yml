@@ -99,34 +99,21 @@ autopages:
 
   # Site-wide kill switch, disable here and it doesn't run at all 
   enabled: true
-
   # Category pages, omit entire config element to disable
   categories: 
     # Optional, the list of layouts that should be processed for every category found in the site
     layouts: 
       - 'autopage.html'
     # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
-    title: 'Posts in category :cat'
+    title: 'Posts in category ":cat"'
     # Optional, the permalink for the  pagination page (:cat is replaced), 
     # the pagination permalink path is then appended to this permalink structure
-    permalink: '/category/:cat'
+    permalink: '/:cat/'
     # Optional, when true logging related to category pages will be supressed.
     silent: false
     slugify:
       mode: 'default'   # :cat is slugified. Modes: default, raw, pretty, ascii, latin
       case: false       # Whether to replace all uppercase letters with their lowercase counterparts
-
-  # Collection pages, omit to disable
-  collections:
-    layouts: 
-      - 'autopage.html'
-    title: 'Posts in collection :coll' # :coll is replaced by the collection name
-    permalink: '/collection/:coll'
-    silent: false
-    slugify:
-      mode: 'default'   # :coll is slugified.
-      case: false 
-  
   # Tag pages, omit to disable
   tags:
     layouts: 
