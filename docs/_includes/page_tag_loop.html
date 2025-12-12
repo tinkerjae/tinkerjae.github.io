@@ -1,0 +1,7 @@
+{% if page.tags.size >= 1 %}
+Tags: 
+    {% for tag in page.tags %}
+        <a href={{ tag | prepend: "/all/" | downcase }}>{{ tag | downcase }}</a>;
+    {% endfor %}
+<br>
+{% endif %}

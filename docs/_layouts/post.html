@@ -1,0 +1,11 @@
+---
+layout: default
+pagination:
+    enabled: false
+---
+<p style=" margin-top: -2%;">
+Date: {{page.date | date: "%A, %B %e %Y" }} <br>
+{% include page_category_loop.html %}
+{% include page_tag_loop.html %}
+</p>
+{{ content | markdownify }}

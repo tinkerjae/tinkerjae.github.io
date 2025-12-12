@@ -1,0 +1,7 @@
+{% if page.categories.size >= 1 %}
+Categories: 
+    {% for category in page.categories %}
+        <a href={{ category | prepend: "/" | append: "/" | downcase  }}>{{ category | downcase }}</a>;
+    {% endfor %}
+<br>
+{% endif %}

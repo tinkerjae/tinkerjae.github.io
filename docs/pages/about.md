@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
 categories: 
     - Misc
-    - Project
 ---
 SAMPLE TEXT!
