@@ -29,21 +29,6 @@ domain: tinkerjae.xyz # if you want to force HTTPS, specify the domain without t
 url: https://tinkerjae.xyz/  # the base hostname and protocol for your site, e.g. http://example.com
 author: Jae
 profpic: https://files.catbox.moe/o2hqdb.jpg # a link to our profile picture site wide.
-navbar_desktop:
-          <div class="Border NavbarDesktop">
-            <h3><a href="/">Home</a></h3>
-            <hr>
-            <h3><a href="/categories/">Categories</a></h3>
-            <hr>
-            <h3><a href="/misc/">Misc</a></h3>
-          </div>
-navbar_mobile:
-          <div class="NavbarMobile">
-            <h3><a href="/">Home</a></h3>
-            <h3><a href="/categories/">Categories</a></h3>
-            <h3><a href="/misc/">Misc</a></h3>
-            <hr>
-          </div>
 
 # Build settings
 plugins:

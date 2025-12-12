@@ -21,10 +21,10 @@
     <section class="MetaContainer">
       <section class="LeftBox">
         <a href="/about/"><img class="ProfPic Border" src="{{ site.profpic }}"></a>
-        {{site.navbar_desktop}}
+        {% include navbar_desktop.html %}
       </section>
       <section class="MainBox Border">
-        {{site.navbar_mobile}}
+        {% include navbar_mobile.html %}
         <h2><u>{{page.title}}</u></h2>
         {{ content }}
         <div class="Spacer"></div>
