@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "42%" 
 categories: blog resources
 tags: vent

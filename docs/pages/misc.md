@@ -1,14 +1,15 @@
 ---
-layout: cat1
-permalink: /misc/
+layout: default
 title: Misc
-excerpt: For stuff that doesn't quite fit.
+permalink: /misc/
+excerpt: What do you think this is? 
+categories:
+    - misc
 ---
-{% assign sortedPages = site.pages | sort: 'title' %}
-{% for page in sortedPages %}   
-{% if page.layout == "cat3" %}
-<div class="PostBlock"> 
-<p><a href="{{page.url}}">{{page.title}}</a>: {{page.excerpt}}</p> 
-</div>
+All the miscelleaneous stuff with nowhere else to go on my site.
+{% assign abc_sorted_pages = site.pages | sort: "title" %}
+{% for page in abc_sorted_pages %}
+{% if page.categories contains "Misc" or page.categories contains "misc" %}
+<p><a href="{{ page.url }}">{{ page.title }}</a>: {{ page.content | strip_html | truncatewords: 7  }}</p>
 {% endif %}
-{% endfor %}
+{% endfor %} 

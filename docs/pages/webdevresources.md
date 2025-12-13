@@ -1,5 +1,5 @@
 ---
-layout: cat3
+layout: page
 permalink: /webdevresources/
 title: Web Dev Resources
 excerpt: For resources on making your own website.

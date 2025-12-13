@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/assets/styles.css">
-    <title>{{site.title}} | {{page.title}}</title>
+    <title>{{page.title}} | {{site.title}}</title>
     <link rel="icon" type="image/x-icon" href="{{ site.profpic }}">
     <meta name="description" content="{{ page.excerpt }}">
     <meta name="author" content="{{ site.author }}">
@@ -17,14 +17,14 @@
 
   </head>
   <body>
-    <h1 class="SiteTitle"><a href="/" class="SiteTitleLink">Tinker Jae</a></h1>
+    <h1 class="SiteTitle"><a href="/" class="SiteTitleLink">{{site.title}}</a></h1>
     <section class="MetaContainer">
       <section class="LeftBox">
         <a href="/about/"><img class="ProfPic Border" src="{{ site.profpic }}"></a>
-        {{site.navbar_desktop}}
+        {% include navbar_desktop.html %}
       </section>
       <section class="MainBox Border">
-        {{site.navbar_mobile}}
+        {% include navbar_mobile.html %}
         <h2><u>{{page.title}}</u></h2>
         {{ content }}
         <div class="Spacer"></div>

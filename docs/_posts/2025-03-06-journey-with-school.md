@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "My Journey with School"
 categories: blog 
 tags: school

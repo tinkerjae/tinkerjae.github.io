@@ -1,5 +1,5 @@
 ---
-layout: cat3
+layout: page
 permalink: /site-todos/
 title: Sitewide To-do's
 excerpt: Stuff that needs to be done for the website.

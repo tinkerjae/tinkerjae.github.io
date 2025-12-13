@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "I've started martial arts!"
 categories: blog hobbies 
 tags: martial-arts

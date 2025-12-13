@@ -1,5 +1,5 @@
 ---
-layout: cat3
+layout: page
 permalink: /catbox/
 title: Catbox
 excerpt: Assets & Collections from Catbox.moe

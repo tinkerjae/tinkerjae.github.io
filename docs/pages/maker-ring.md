@@ -1,5 +1,5 @@
 ---
-layout: cat3
+layout: page
 permalink: /maker-ring/
 title: Maker Ring
 excerpt: A little about the Maker Ring webring.

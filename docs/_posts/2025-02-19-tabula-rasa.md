@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Tabula Rasa"
 categories: blog
 ---

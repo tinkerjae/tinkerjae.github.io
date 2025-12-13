@@ -1,0 +1,12 @@
+---
+layout: default
+pagination:
+    enabled: false
+---
+<p style=" margin-top: -2%;">
+{% include page_date.html %}
+{% include page_status.html %}
+{% include page_category_loop.html %}
+{% include page_tag_loop.html %}
+</p>
+{{ content | markdownify }}
