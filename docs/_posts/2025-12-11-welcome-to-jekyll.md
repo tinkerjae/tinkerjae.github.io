@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-page
 title:  "Welcome to Jekyll!"
 date: 12-11-2025
 ---
