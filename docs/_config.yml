@@ -119,7 +119,7 @@ autopages:
     layouts: 
       - 'autopage.html'
     title: 'Posts tagged with ":tag"' # :tag is replaced by the tag name
-    permalink: '/all/:tag'
+    permalink: '/all-posts/:tag'
     silent: false
     slugify:
       mode: 'default' # :tag is slugified.
