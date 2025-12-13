@@ -25,6 +25,12 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
     font-weight: inherit;
     padding: 0%;
 }
+ul {
+    list-style-type: "-";
+}
+li {
+    text-indent: 2% hanging;
+}
 .PostBlock{     
     line-height: auto;
 }

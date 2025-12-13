@@ -4,7 +4,8 @@ pagination:
     enabled: false
 ---
 <p style=" margin-top: -2%;">
-{% if page.date %} Date: {{page.date | date: "%A, %B %e %Y" }} <br> {% endif %}
+{% include page_date.html %}
+{% include page_status.html %}
 {% include page_category_loop.html %}
 {% include page_tag_loop.html %}
 </p>
