@@ -30,6 +30,7 @@ ul {
 }
 li {
     text-indent: 2% hanging;
+    margin: 2% 0%;
 }
 .PostBlock{     
     line-height: auto;
