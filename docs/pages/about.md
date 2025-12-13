@@ -2,8 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-date: 
 categories: 
     - Misc
 ---
-SAMPLE TEXT!
+Nothing here yet, sorry!
