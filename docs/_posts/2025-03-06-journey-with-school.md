@@ -1,8 +1,11 @@
 ---
 layout: page
 title:  "My Journey with School"
-categories: blog 
-tags: school
+date: 2025/03/06
+categories: 
+    - blog 
+tags: 
+    - school
 ---
 How ya going?
 

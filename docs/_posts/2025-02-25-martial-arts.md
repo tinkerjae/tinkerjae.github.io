@@ -1,8 +1,11 @@
 ---
 layout: page
 title:  "I've started martial arts!"
-categories: blog hobbies 
-tags: martial-arts
+date: 2025/02/25
+categories: 
+    - blog
+tags: 
+    - martial-arts
 ---
 Hey! It hasn't been that long suprisingly. 
 
