@@ -6,15 +6,15 @@ categories: misc
 ---
 This page is mainly for open source accreditation and attribution.
 
-## <u>Website Info</u>
+## Website Info
 My website is open source and the [source code](https://github.com/tinkerjae/tinkerjae.github.io) is public @ the previous link.
 My website is running [Jekyll](https://github.com/jekyll/jekyll) {{jekyll.version}}, with the [jekyll-feed](https://github.com/jekyll/jekyll-feed) and [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2) plugins being used for Atom/RSS feed generation, as well as pagination + the autopages feature for categories and tags. My website is hosted through [Github Pages](https://pages.github.com/) with a custom domain via [Cloudflare](https://www.cloudflare.com/). All of my photos, images, and non embeded media are hosted at [Catbox.moe](https://catbox.moe/).
 
-## <u>Development Process</u>
+## Development Process
 My dev process is different than others because I'm running plugins that [GH Pages](https://pages.github.com/) doesn't support natively. I edit/modify my [source branch](https://github.com/tinkerjae/tinkerjae.github.io/tree/source) to modify the website in any capacity, but the changes only show once I upload the raw html, css, and other '_site' files to the [static-files branch](https://github.com/tinkerjae/tinkerjae.github.io/tree/static-files). 
 The [static-files](https://github.com/tinkerjae/tinkerjae.github.io/tree/static-files) are what actually show up on the website where as the [source](https://github.com/tinkerjae/tinkerjae.github.io/tree/source) files exist on the backend.
 
-## <u>Attributions</u>
+## Attributions
 My website's lovely [404](/404.html) picture was provided by [HTTP Cats](https://http.cat/), thanks guys!
 
 My website's [star background](https://codepen.io/sadness97/full/dPoEqNN) was provided by [sadgrl.online](https://sadgrl.online/resources/), big thanks!

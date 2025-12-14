@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /rss-or-atom/
+permalink: /rss-atom/
 title: RSS/Atom/XML Feeds
 categories: misc
 ---
