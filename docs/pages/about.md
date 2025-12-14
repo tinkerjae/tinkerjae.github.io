@@ -44,6 +44,7 @@ I'm someone who's very passionate about:
 - Art & Creativity
 - Science & Engineering
 - Hands on learning
+- Philosophy, Critical Thinking, and Accessibility
 - Interfaith Community and Conversation
 - Spirituality, Religious Studies, and the Occult
 - Solarpunk
