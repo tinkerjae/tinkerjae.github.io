@@ -20,13 +20,16 @@ body {
     list-style-position: inside;
     letter-spacing: 2.5%;
 }
+h1, h2, h3, h4, h5, h6{
+    text-decoration: underline;
+}
 h1, h2, h3, h4, h5, h6, p, ul, ol {
     margin: 2% 3%;
     font-weight: inherit;
     padding: 0%;
 }
 ul {
-    list-style-type: "–";
+    list-style-type: "– ";
 }
 li {
     text-indent: 2% hanging;
@@ -44,6 +47,7 @@ li {
     margin: 1% auto;
     font-family: "Panic";
     font-size: 225%;
+    text-decoration: none;
     }
 .SiteTitleLink {
     width: min-content;
