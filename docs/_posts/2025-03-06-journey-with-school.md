@@ -2,10 +2,8 @@
 layout: page
 title:  "My Journey with School"
 date: 2025/03/06
-categories: 
-    - blog 
 tags: 
-    - school
+    - academia
 ---
 How ya going?
 

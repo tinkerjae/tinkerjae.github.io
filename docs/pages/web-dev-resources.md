@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /webdevresources/
+permalink: /web-dev-resources/
 title: Web Dev Resources
 excerpt: For resources on making your own website.
 categories: misc

@@ -2,11 +2,8 @@
 layout: page
 title:  "Happiness, Absurdism, & Love" 
 date: 2025/03/04
-categories: 
-    - blog
 tags: 
     - philosophy 
-    - essay
 ---
 An essay on happiness, absurdism, and love.
 

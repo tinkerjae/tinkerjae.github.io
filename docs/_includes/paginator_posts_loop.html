@@ -1,10 +1,8 @@
-<ul>
 {% for post in paginator.posts %}
-<li>
+<p>
 <a href="{{ post.url }}">{{ post.title }}</a> {% include posts_date.html %}
 {% include posts_status.html %}
 {% include posts_category_loop.html %}
 {% include posts_tag_loop.html %}
-</li>
+</p>
 {% endfor %} 
-</ul>

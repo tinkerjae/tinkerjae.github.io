@@ -2,8 +2,6 @@
 layout: page
 title:  "I've started martial arts!"
 date: 2025/02/25
-categories: 
-    - blog
 tags: 
     - martial-arts
 ---

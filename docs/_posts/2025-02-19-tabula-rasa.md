@@ -2,8 +2,6 @@
 layout: page
 title:  "Tabula Rasa"
 date: 2025/02/19
-categories: 
-    - blog
 ---
 A fresh start.
 

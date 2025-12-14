@@ -3,11 +3,9 @@ layout: page
 title:  "42%" 
 date: 2025/02/26
 categories: 
-    - blog 
     - resources
 tags: 
     - vent 
-    - essay
 ---
 A writing on rest.
 
