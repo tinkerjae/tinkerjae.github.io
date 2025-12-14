@@ -12,7 +12,11 @@ If you'd like to make a website like this, check out my [web dev resources](/web
 
 Oh and this website is [open source](/open-source/), feel free to take a peek at my [source code](https://github.com/tinkerjae/tinkerjae.github.io)!
 <hr>
-## Navigation
-To navigate this site, first check out the [posts](/all-posts/) directory for a paginated list of all my blog posts. Click on any [category](/project/) to get posts of a similar type, or any [tag](/all-posts/academia/) to find posts about a similar topic. Lastly, check out [misc](/misc/) for posts that are a little different.
+## <u>Navigation</u>
+To navigate this site
+1. Check out the [posts](/all-posts/) directory for a paginated list of all my blog posts. 
+2. Click on any [category](/project/) to get posts of a similar type, 
+3. or any [tag](/all-posts/academia/) to find posts about a similar topic. 
+4. Lastly, check out [misc](/misc/) for posts that are a little different.
 
 {% include maker_webring.html %}

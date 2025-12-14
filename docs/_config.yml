@@ -34,6 +34,10 @@ profpic: https://files.catbox.moe/o2hqdb.jpg # a link to our profile picture sit
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+############################################################
+# Site configuration for Jekyll Feed
+feed:
+  posts_limit: 10
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
