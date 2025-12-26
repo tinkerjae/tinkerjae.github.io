@@ -10,7 +10,7 @@ One of my [buddies](https://linktr.ee/lupin.lo0ps) recently expressed interest i
 
 Anyways, from that fun romp with the game, I heard my friend had interest in it and I purchased it as payment for a commission. Here it is!
 
-![Dispatch Comission from @Lupin_Lo0ps](https://files.catbox.moe/w4ayyt.png)
+{% include image.html src="https://files.catbox.moe/w4ayyt.png" caption="Added the caption, here's my friend's art!" %}
 
 I'll be updating this soon with an image caption, but if you like this art please checkout my friend's [Linktree](https://linktr.ee/lupin.lo0ps) for more of their art! 
 

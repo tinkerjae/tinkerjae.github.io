@@ -61,15 +61,17 @@ hr {
 }
 img {
     display: block;
-    margin: auto auto;
-    max-width: 95%;
-    height: auto;
+    max-width: calc(100% - 4px*2); /* 100% - 2*(the border size)*/
 }
 .Border {
     border: 4px;
     border-radius: 15px;
     border-style: solid;
     }
+.Caption {
+    text-align: center;
+    line-height: 150%;
+}
 .marker {
     border: 7px;
     border-style: solid;
