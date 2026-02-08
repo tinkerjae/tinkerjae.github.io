@@ -71,6 +71,7 @@ img {
 .Caption {
     text-align: center;
     line-height: 150%;
+    flex-flow: column;
 }
 .marker {
     border: 7px;
