@@ -8,8 +8,6 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://tinkerjae.xyz/',
-// This next line is my test site.
-'http://127.0.0.1:4000/',
 'https://mariteaux.somnolescent.net/',
 'https://ralphsdigitalrecord.neocities.org/'
 ];
