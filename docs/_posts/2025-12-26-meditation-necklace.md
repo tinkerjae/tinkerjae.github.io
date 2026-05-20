@@ -14,10 +14,10 @@ If you want to make your own, the nuts are  1/2" stainless steel and I don't kno
 
 Anyway, here are some photos:
 
-{% include image.html src="https://files.catbox.moe/bp9fed.jpg" caption="Pic 1" %}
+{% include image.md src="https://files.catbox.moe/bp9fed.jpg" alt="Picture of a necklace 1" caption="Pic 1" %}
 
-{% include image.html src="https://files.catbox.moe/qgarpm.jpg" caption="Pic 2" %}
+{% include image.md src="https://files.catbox.moe/qgarpm.jpg" alt="Picture of a necklace 2" caption="Pic 2" %}
 
-{% include image.html src="https://files.catbox.moe/c4865s.jpg" caption="Pic 3" %}
+{% include image.md src="https://files.catbox.moe/c4865s.jpg" alt="Picture of a necklace 3" caption="Pic 3" %}
 
 Alright, that's it from me. Bye for now!
