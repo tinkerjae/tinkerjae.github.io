@@ -67,8 +67,13 @@ img {
     border: 4px;
     border-radius: 15px;
     border-style: solid;
+    overflow: hidden;
     }
+.ImgCaption{
+    margin-bottom: 0px;
+}
 .Caption {
+    margin-top: 0px;
     text-align: center;
     line-height: 150%;
     flex-flow: column;
@@ -87,7 +92,7 @@ hr, html, .Border, .SiteTitleLink{
     color: rgba(243, 234, 237, 1);
 }
 a{
-    color: turquoise;
+    color: rgba(0, 255, 255, 0.94);
 }
 /*COLORS˄!*/
 /* ALL˅ BOX/SECTION/DIV TESTING !!!!!!!! */
