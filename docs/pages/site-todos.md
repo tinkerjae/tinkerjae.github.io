@@ -16,3 +16,4 @@ As of May 14th, 2026
 - [x] ~~change site color to Cyan(#00FFFF) instead of Turquoise(#40E0D0) {we changed it to be the same color but used RGBA and set A to 0.94}.~~ Completed: 5/14/2026
 - [x] ~~add click to zoom on picture feature (It's called lightbox)~~ Completed: 5/14/2026
 - [ ] change Blog to be structured similarly to Youtube channel with blogs mainly being JJD with numbered variants, and projects or other specific works being apart of the blogs section but tagged differently. 
+- [ ] change image hosting service from [Catbox](https://catbox.moe/), maybe to Cloudflare R2?
